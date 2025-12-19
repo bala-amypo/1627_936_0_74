@@ -9,7 +9,7 @@ import com.example.demo.entity.StudentEntity;
 import java.util.List;
 
 @Service
-public class StudentServiceimpl implements StudentService{
+public class StudentServiceImpl implements StudentService{
         
     @Autowired StudentRepository student;
     // save,findAll(),findById(),deleteId(),existsById()
